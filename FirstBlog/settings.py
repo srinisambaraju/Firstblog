@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'aftershiptracking',
     'articles',
     'accounts',
+    'automation',
 ]
 
 MIDDLEWARE = [
