@@ -25,6 +25,7 @@ urlpatterns = [
     url(r'^blog', include('blog.urls')),
     url(r'^aftershiptracking/', include('aftershiptracking.urls')),
     url(r'^articles/', include('articles.urls')),
+    url(r'^automation/', include('automation.urls')),
     url(r'^accounts/', include('accounts.urls')),
     url(r'^about/$', views.about),
     url(r'^$', article_views.article_list, name="home")
