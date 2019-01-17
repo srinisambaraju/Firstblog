@@ -28,6 +28,7 @@ urlpatterns = [
     url(r'^automation/', include('automation.urls')),
     url(r'^accounts/', include('accounts.urls')),
     url(r'^about/$', views.about),
+    url(r'^raasidetails', include('raasidetails.urls')),
     url(r'^$', article_views.article_list, name="home")
 ]
 
